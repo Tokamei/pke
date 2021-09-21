@@ -9,7 +9,7 @@ setup(name='pke',
       packages=['pke', 'pke.unsupervised', 'pke.supervised',
                 'pke.supervised.feature_based', 'pke.unsupervised.graph_based',
                 'pke.unsupervised.statistical', 'pke.supervised.neural_based'],
-      url="https://github.com/boudinfl/pke",
+      url="https://github.com/Tokamei/pke",
       install_requires=[
           'nltk',
           'networkx',
