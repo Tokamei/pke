@@ -469,10 +469,10 @@ class LoadFile(object):
 
     def candidate_filtering(self,
                             stoplist=None,
-                            minimum_length=3,
+                            minimum_length=2,
                             minimum_word_size=2,
                             valid_punctuation_marks='-',
-                            maximum_word_number=5,
+                            maximum_word_number=2,
                             only_alphanum=True,
                             pos_blacklist=None):
         """Filter the candidates containing strings from the stoplist. Only
